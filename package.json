@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base --port 3000 --color",
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Darylxyx/generator-yx#readme",
   "devDependencies": {
+    "acorn": "^5.1.1",
     "babel-core": "^6.10.4",
     "babel-eslint": "^6.1.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.2",
@@ -27,8 +28,12 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "co": "^4.6.0",
     "css-loader": "^0.23.1",
     "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "json-stable-stringify": "^1.0.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "vue-loader": "^11.1.0",
