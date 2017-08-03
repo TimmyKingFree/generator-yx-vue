@@ -32,17 +32,17 @@ Command `-p` will compress the bundle.
 * nodejs
 
 
-###项目使用方法
-*首次启动webpack需要先进行打包，请在命令行中运行如下指令
+### 项目使用方法
+* 首次启动webpack需要先进行打包，请在命令行中运行如下指令
 	```
 	 webpack --config webpack.dll.config.js -p
 	 webpack(或者 npm start)
 	```
-*当依赖项目包（vue等不是自己写的包）没有更新，或者没有添加新的包时，使用如下命令正常启动项目即可
+* 当依赖项目包（vue等不是自己写的包）没有更新，或者没有添加新的包时，使用如下命令正常启动项目即可
 	```
 	 webpack(或者 npm start)
 	```
-*当依赖项目包（vue等不是自己写的包）有更新或者添加了自己想使用的新包时，需要使用如下命令：
+* 当依赖项目包（vue等不是自己写的包）有更新或者添加了自己想使用的新包时，需要使用如下命令：
 	```
 	 webpack --config webpack.dll.config.js -p
 	 webpack(或者 npm start)
